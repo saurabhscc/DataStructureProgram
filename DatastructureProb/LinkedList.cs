@@ -79,7 +79,7 @@ namespace DatastructureProb
             Node<T> node = head;
             while (node != null)
             {
-                StringValues += ""+node.data;
+                StringValues += node.data + " ";
                 node = node.next;
             }
             return StringValues;
