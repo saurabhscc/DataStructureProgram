@@ -6,7 +6,8 @@ namespace DatastructureProb
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Data Structure Problem");
+            UnorderedList<string> unorderedList = new UnorderedList<string>();
+            unorderedList.GetInput();
         }
     }
 }
